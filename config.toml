@@ -1,0 +1,45 @@
+theme = "awesome-identity"
+baseURL = "https://www.joeloftus.net"
+title = "Joe Loftus"
+
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/joepic.JPG"
+  firstname = "Joe"
+  lastname = "Loftus"
+  title = "Software Engineer"
+  bio = """Hi I'm Joe, a  backend software engineer.
+
+My tech journey has been an interesting ride, and along the way, I've become proficient in multiple technologies and skills. 
+From languages like C++, Go, Python, C#, and JavaScript to orchestrating projects with tools like CMake and Git, 
+
+My knowledge of backend solutions led me to embrace robust technologies like PostgreSQL and SQL, enabling me to architect scalable and efficient databases. 
+Along with cloud computing, leveraging AWS, Docker and Kubernetes to deploy and manage applications securely.
+
+Beyond my professional endeavors, I'm passionate about contributing to open source projects, fueling my commitment to innovation and collaboration within the tech community.
+
+When I'm not immersed in lines of code, you'll often find me playing my guitar and spending quality time with my partner and daughter. 
+
+
+
+  """
+## Contacts Configurations
+[params.contacts]
+  email = "joeloftusdev@gmail.com"
+  github = "joeloftusdev"
+  gitlab = "joeloftusdev"
+  linkedin = "joeloftus94"
+
+[params]
+  [[params.actions]]
+    url = "https://github.com/joeloftusdev/joeloftus-cv/blob/main/resume.pdf"
+    name = "Review my CV"
+
+
+  
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2024 Joe Loftus. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true
